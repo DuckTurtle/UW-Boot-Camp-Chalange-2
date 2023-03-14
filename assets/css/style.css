@@ -20,6 +20,7 @@ header{
     padding:5px;
     position:sticky;
     margin-bottom:20px;
+    background-color: var(--backround);
 }
 header h1{
     font-size: 2rem;
@@ -50,4 +51,61 @@ nav  li  a:hover,
 nav  li  a:focus {
     text-decoration: none;
     background-color: #eb8500;
+}
+.backround{
+    height:800px;
+    width:100%;
+    background-image:url("../images/background\ photo.jpg");
+    margin-bottom:20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.backround p{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    color:var(--text);
+    padding-top: 700px;
+    font-size: 40px;
+    text-align: center;
+}
+.AM{
+    display:flex;
+    padding: 20px;
+    font-size:25px;
+    color:var(--text);
+}
+.AM h2{
+    font-size: 40px;
+    padding-right:20px;
+}
+.AM p{
+    padding-left:15px;
+    padding-right:10px;
+    border-left:var(--text);
+    border-left:solid;
+}
+.AM:hover,
+.AM:focus #About-me{
+    font-size: 65px;
+    padding-left:40px;
+    padding-right:30px;
+    transition: 3s;
+    align-items: center;
+}
+.AM:hover,
+.AM:focus #txt{
+    font-size: 30px;
+}
+.work h2{
+    font-size: 45px;
+    display:flex;
+    color:var(--text);
+
+}
+.workblock{
+    border:solid;
+    border:var(--text);
 }
