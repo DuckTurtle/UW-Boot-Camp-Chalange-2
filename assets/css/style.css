@@ -5,8 +5,8 @@
 *{
     font-family: sans-serif;
     box-sizing: border-box;
-    padding: 0;
-    margin:0;
+    margin: 0;
+    padding:0;
 }
 body{
     display:flex;
@@ -14,12 +14,11 @@ body{
     background-color: var(--backround);
 }
 header{
+    position:sticky;
     display:flex;
     justify-content: space-between;
     height:100%;
-    padding:5px;
-    position:sticky;
-    margin-bottom:20px;
+    padding:15px;
     background-color: var(--backround);
 }
 header h1{
@@ -58,18 +57,19 @@ nav  li  a:focus {
     background-image:url("../images/background\ photo.jpg");
     margin-bottom:20px;
     margin-top: 20px;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: left;
 }
 .backround p{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     color:var(--text);
     padding-top: 700px;
     font-size: 40px;
     text-align: center;
+    padding-bottom:60px;
 }
 .AM{
     display:flex;
@@ -99,11 +99,14 @@ nav  li  a:focus {
 .AM:focus #txt{
     font-size: 30px;
 }
+.sec3{
+    display:flex;
+}
 #My-work{
     font-size: 40px;
     display:flex;
     color:var(--text);
-    padding:20px;
+    padding:28.5px;
     border-right:solid;
     border-color:var(--text);
     inline-size:160px
@@ -113,7 +116,34 @@ nav  li  a:focus {
     flex-direction: row;
     flex-wrap:wrap;
     border-radius:15px;
-    border:var(--text);
+    border-color:var(--text);
     padding: 20px;
     block-size: 200px;
+    border-style:solid;
+    width:400px;
+    margin:15px;
+}
+.contact{
+    display:flex;
+    padding: 20px;
+    font-size:25px;
+    color:var(--text);
+}
+.contact ul{
+    list-style-type:none;
+}
+.contact h4{
+    font-size: 30px;
+    padding-right:20px;
+    border-right:var(--text);
+    border-right:solid;
+    inline-size:139.2px;
+}
+/*#Contact-me:hover,
+#Contact-me:focus{
+    font-size: 50px;
+    padding-left:0px;
+    padding-right:30px;
+    transition: 3s;
+    align-items: center;
 }
