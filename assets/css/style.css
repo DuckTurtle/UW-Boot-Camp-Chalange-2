@@ -99,13 +99,21 @@ nav  li  a:focus {
 .AM:focus #txt{
     font-size: 30px;
 }
-.work h2{
-    font-size: 45px;
+#My-work{
+    font-size: 40px;
     display:flex;
     color:var(--text);
-
+    padding:20px;
+    border-right:solid;
+    border-color:var(--text);
+    inline-size:160px
 }
 .workblock{
-    border:solid;
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border-radius:15px;
     border:var(--text);
+    padding: 20px;
+    block-size: 200px;
 }
