@@ -155,7 +155,11 @@ nav li a:focus {
     inline-size: 160px;
     text-align:center;
 }
-
+#project1{
+    background: url('../images/treefinder.JPG'); 
+    background-repeat: no-repeat;
+    background-position: top;
+}
 .workblock {
     display: inline-flex;
     flex-direction: row;
