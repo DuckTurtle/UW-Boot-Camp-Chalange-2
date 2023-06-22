@@ -204,6 +204,8 @@ nav li a:focus {
 }
 .characraft {
     background-image: url("../images/characraft.JPG");
+}
+.characraft p {
     color: rgb(216, 216, 16);
 }
 
