@@ -17,7 +17,7 @@ There is no installation required. All applications should work on opening the w
 ## Usage
 This website has 4 features. At the top of the page, there are 3 quick-find links that jump you to different sections of the page. Next, you have the About Me section that will increase its font size when hovering over it. Then in the My Work section, you have boxes that each contain a placeholder or a finished project. Please note none of the placeholders are my work, they are just there for formating. Lastly, at the bottom there are two hyperlinks that direct you to my git hub page and my email.
 
-![alt-text](/assets/images/c2%20images.JPG)
+![picture of website](/assets/images/porfolieo.png)
 
 ## License
 
