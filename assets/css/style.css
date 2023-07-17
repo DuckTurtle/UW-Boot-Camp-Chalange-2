@@ -1,6 +1,6 @@
 :root {
-    --backround: rgb(221, 148, 53);
-    --text: rgb(90, 7, 138);
+    --backround: rgb(53, 162, 159);
+    --text: rgb(7, 25, 82);
 }
 
 * {
@@ -69,7 +69,7 @@ nav li a:focus {
     width: 100%;
     margin-bottom: 20px;
     margin-top: 20px;
-    background-image: url("../images/background\ photo.jpg");
+    background-image: url("../images/tec.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -101,10 +101,13 @@ nav li a:focus {
     border-width: 4px;
     border-radius: 10px;
     border-color: var(--text);
-    background-image:url("../images/background\ 2.0.jpg");
+    background-image:url("../images/me.JPG");
     right:100px;
     top:200px
 }
+br {
+    line-height: 150%;
+ }
 
 .AM {
     display: flex;
@@ -155,11 +158,6 @@ nav li a:focus {
     inline-size: 160px;
     text-align:center;
 }
-#project1{
-    background: url('../images/treefinder.JPG'); 
-    background-repeat: no-repeat;
-    background-position: top;
-}
 .workblock {
     display: inline-flex;
     flex-direction: row;
@@ -202,6 +200,14 @@ nav li a:focus {
     color: var(--text);
     margin-top:100px;
 }
+.project1{
+    background-image: url('../images/treefinder.JPG'); 
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.project1 p{
+color: rgb(12, 172, 12);
+}
 .characraft {
     background-image: url("../images/characraft.JPG");
 }
@@ -234,12 +240,10 @@ nav li a:focus {
     border-radius: 15px;
 }
 
-#E:hover,
-#E:focus,
-#GH:hover,
-#GH:focus {
+.ft:hover,
+.ft:focus{
     text-decoration: none;
-    background-color: #eb8500;
+    background-color: rgb(11, 102, 106);
     font-size: 35px;
     transition: 2s;
 }
